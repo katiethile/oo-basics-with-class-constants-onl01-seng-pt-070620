@@ -13,6 +13,7 @@ class Shoe
     puts 3
   else 
     puts 4
+  end
 
   def cobble
     self.condition = "new"
