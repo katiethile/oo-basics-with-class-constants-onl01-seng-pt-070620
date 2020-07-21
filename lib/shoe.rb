@@ -12,6 +12,7 @@ class Shoe
   unless size != 4
     puts 3
   else 
+    puts 4
 
   def cobble
     self.condition = "new"
