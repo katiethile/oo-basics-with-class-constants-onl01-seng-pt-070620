@@ -9,7 +9,9 @@ class Shoe
     BRANDS << brand
   end
   
-  unless size 
+  unless size != 4
+    puts 3
+  else 
 
   def cobble
     self.condition = "new"
