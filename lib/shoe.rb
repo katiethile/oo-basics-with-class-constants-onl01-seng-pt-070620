@@ -8,11 +8,17 @@ class Shoe
     @brand = brand
     BRANDS << brand
   end
+  
+  def size=(size)
+    @size = 3
+  end 
+  
+  def size
+    @size 
+  end 
 
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
-  
-  if size 
 end 
