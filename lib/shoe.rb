@@ -10,14 +10,6 @@ class Shoe
     BRANDS << brand
   end
 end 
-  
-  def size=(size)
-    @size = 3
-  end 
-  
-  def size
-    @size 
-  end 
 
   def cobble
     self.condition = "new"
